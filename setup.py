@@ -35,7 +35,7 @@ if not package_version.startswith(dbt_version):
         f"Invalid setup.py: package_version={package_version} must start with "
         f"dbt_version={dbt_version}"
     )
-
+##
 setup(
     name=package_name,
     version=package_version,
